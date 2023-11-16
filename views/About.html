@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="/public/FontAwesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/public/css/about.css">
+    <link rel="stylesheet" href="/public/sass/project2.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/public/js/about.js"></script>
+    <title>About page</title>
+</head>
+<body>
+
+
+    <!-- Modal Body-->
+    <div class="modal fade" id="logins" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background: darkslategrey;">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitleId">Logins</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form action="#" class="was-validated">
+                            <div class="mb-3">
+                                <label for="" class="form-label">Username or Email</label>
+                                <input type="text email" name="" id="" class="form-control" placeholder="Enter your name" aria-describedby="helpId" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="" class="form-label">Password</label>
+                                <input type="password" name="" id="" class="form-control" placeholder="Enter your password" aria-describedby="helpId" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                              </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-success">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <!-- Modal Body-->
+    <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: darkslategrey;">
+                    <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitleId">Signin</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form action="#" class="was-validated">
+                            <div class="mb-3">
+                              <label for="" class="form-label">Name</label>
+                              <input type="text" name="" id="" class="form-control" placeholder="Enter your name" aria-describedby="helpId" required>
+                              <div class="valid-feedback">Valid</div>
+                              <div class="invalid-feedback">Please fill out this field</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Email</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Enter your Email" aria-describedby="helpId" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="" class="form-label">Password</label>
+                                <input type="password" name="" id="" class="form-control" placeholder="Enter your new password" aria-describedby="helpId" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="" class="form-label">Confirm password</label>
+                                <input type="password" name="" id="" class="form-control" placeholder="Confirm your password" aria-describedby="helpId" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please fill out this field</div>
+                              </div>
+                
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      <nav class=" tab2 navbar navbar-expand-sm navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="/public/images/SnapTube Image/AF.jpg"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page" style="color: white;">About<span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tshirt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jeans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shoes</a>
+                    </li>
+                   
+                </ul>
+                <div class="d-flex my-2 my-lg-0 login">
+                    <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#logins" >Login<span class="badge bg-primary"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+      </nav>
+
+      <div class="p-5 mb-4  hero_image">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">GaMich</h1>
+          <p class="col-md-8 fs-4">We understand the the importance of quality in what we wear thats why we invest in alot in our processing machine
+            You can join us so usto inform you about our new products by signin to our news letter
+          </p>
+
+          <button type="button" class="btn btn-outline-success btn-md" data-bs-toggle="modal" data-bs-target="#modalId">Signin</button>
+        </div>
+ </div>  
+</body>
+</html>

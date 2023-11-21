@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <% include('../partials/scripts.ejs')%> -->
+    <link rel="stylesheet" href="/sass/project2.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="/FontAwesome/css/fontawesome.min.css">
+    <title><%= typeof title != 'undefined' ? title:'Gamitch fashion' %></title>
+    
+<body>
+
+
+       <main>  <%- body -%> </main>
+       <%- include('../partials/scripts.ejs') %>
+</body>
+</html>

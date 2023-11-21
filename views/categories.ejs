@@ -1,0 +1,27 @@
+<div class="container">
+
+<h1 class="display-1 mt-3 px-3">Categories</h1>
+
+<div class="px-3">
+   <nav class="breadcrumb">
+       <a class="breadcrumb-item" href="/about">About</a>
+       <span class="breadcrumb-item active" aria-current="page">Explore More</span>
+    </nav>
+</div>
+
+<div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+   <% if(categoryProducts != ''){ %>
+       <% categoryProducts.forEach(function(category,index){%>
+   
+           <a href="/categories/<%- category.Name %>" class="col text-center category_link">
+               <div class="category_img shadow">
+                   <img src="/images/<%- category.Image %>" class="rounded" alt="<%-category.Name%>" loading="lazy">
+               </div>
+               <div class="pt-1"><%- category.Name %></div>
+           </a>
+   
+       <%})%>
+   
+   <%}%>
+</div>
+</div>

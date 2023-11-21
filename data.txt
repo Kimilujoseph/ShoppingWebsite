@@ -1,0 +1,26 @@
+[
+            {
+                "Name":"Bikinis",
+                "Image":"bikini.jpg"
+            },
+            {
+                "Name":"Picnic",
+                "Image":"picnic.jpg"
+            },
+            {
+                "Name":"caps",
+                "Image":"caps.jpg"
+            },
+            {
+                "Name":"saris",
+                "Image":"saris.jpg"
+            },
+            {
+                "Name":"Tribal Sweaters",
+                "Image":"tribalsweaters"
+            },
+            {
+                "Name":"Female Cap",
+                "Image":"caps2.jpg"
+            }
+        ]
